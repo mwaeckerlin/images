@@ -1,0 +1,48 @@
+[submodule "nodejs-build"]
+	path = nodejs-build
+	url = git@github.com:mwaeckerlin/nodejs-build.git
+[submodule "allow-write-access"]
+	path = allow-write-access
+	url = git@github.com:mwaeckerlin/allow-write-access.git
+[submodule "nginx"]
+	path = nginx
+	url = git@github.com:mwaeckerlin/nginx.git
+[submodule "scratch"]
+	path = scratch
+	url = git@github.com:mwaeckerlin/scratch.git
+[submodule "build"]
+	path = build
+	url = git@github.com:mwaeckerlin/build.git
+[submodule "wordpress"]
+	path = wordpress
+	url = git@github.com:mwaeckerlin/wordpress.git
+[submodule "lizardfs-client"]
+	path = lizardfs-client
+	url = git@github.com:mwaeckerlin/lizardfs-client.git
+[submodule "python-build"]
+	path = python-build
+	url = git@github.com:mwaeckerlin/python-build.git
+[submodule "php-fpm"]
+	path = php-fpm
+	url = git@github.com:mwaeckerlin/php-fpm.git
+[submodule "nodejs"]
+	path = nodejs
+	url = git@github.com:mwaeckerlin/nodejs.git
+[submodule "nextcloud"]
+	path = nextcloud
+	url = git@github.com:mwaeckerlin/nextcloud.git
+[submodule "very-base"]
+	path = very-base
+	url = git@github.com:mwaeckerlin/very-base.git
+[submodule "vscode"]
+	path = vscode
+	url = git@github.com:mwaeckerlin/vscode.git
+[submodule "python"]
+	path = python
+	url = git@github.com:mwaeckerlin/python.git
+[submodule "langgraph-agent"]
+	path = langgraph-agent
+	url = git@github.com:mwaeckerlin/langgraph-agent.git
+[submodule "mailservice"]
+	path = mailservice
+	url = git@github.com:mwaeckerlin/mailservice.git

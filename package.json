@@ -1,0 +1,33 @@
+{
+  "name": "mwaeckerlin",
+  "version": "1.0.0",
+  "description": "Base Monorepo for Marc Wäckerlin",
+  "private": true,
+  "workspaces": [
+    "./allow-write-access",
+    "./build",
+    "./langgraph-agent",
+    "./lizardfs-client",
+    "./mailservice",
+    "./nextcloud",
+    "./nginx",
+    "./nodejs",
+    "./nodejs-build",
+    "./php-fpm",
+    "./pico-httpd",
+    "./python",
+    "./python-build",
+    "./scratch",
+    "./very-base",
+    "./vscode",
+    "./wordpress",
+    "./wordpress/nginx",
+    "./wordpress/php-fpm"
+  ],
+  "scripts": {
+    "build": "bash -c 'LOG=$(mktemp); npm run build --workspaces --if-present --foreground-scripts --bail 2>&1 | tee \"$LOG\"; RC=${PIPESTATUS[0]}; [ \"$RC\" != 0 ] && echo && echo === FEHLER === && grep -E \"ERROR|failed to solve\" \"$LOG\" | tail -20; rm -f \"$LOG\"; exit \"$RC\"'",
+    "start": "npm run start --workspaces --if-present",
+    "start:dev": "npm run start:dev --workspaces --if-present",
+    "stop": "npm run stop --workspaces --if-present"
+  }
+}
