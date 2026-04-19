@@ -46,3 +46,12 @@
 [submodule "mailservice"]
 	path = mailservice
 	url = git@github.com:mwaeckerlin/mailservice.git
+[submodule "openclaw"]
+	path = openclaw
+	url = git@github.com:mwaeckerlin/openclaw.git
+[submodule "ubuntu-base"]
+	path = ubuntu-base
+	url = ./ubuntu-base
+[submodule "openclaw-mcp-gateway"]
+	path = openclaw-mcp-gateway
+	url = git@github.com:mwaeckerlin/openclaw-mcp-gateway.git

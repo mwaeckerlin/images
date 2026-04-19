@@ -2,7 +2,6 @@
   "name": "mwaeckerlin",
   "version": "1.0.0",
   "description": "Base Monorepo for Marc Wäckerlin",
-  "private": true,
   "workspaces": [
     "./allow-write-access",
     "./build",
@@ -11,6 +10,7 @@
     "./mailservice",
     "./nextcloud",
     "./nginx",
+    "./openclaw",
     "./nodejs",
     "./nodejs-build",
     "./php-fpm",
@@ -18,6 +18,7 @@
     "./python",
     "./python-build",
     "./scratch",
+    "./ubuntu-base",
     "./very-base",
     "./vscode",
     "./wordpress",
