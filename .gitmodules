@@ -55,3 +55,24 @@
 [submodule "openclaw-mcp-gateway"]
 	path = openclaw-mcp-gateway
 	url = git@github.com:mwaeckerlin/openclaw-mcp-gateway.git
+[submodule "mcp-github"]
+	path = mcp-github
+	url = git@github.com:mwaeckerlin/mcp-github.git
+[submodule "hermes"]
+	path = hermes
+	url = git@github.com:mwaeckerlin/hermes.git
+[submodule "ai-agent-skills"]
+	path = ai-agent-skills
+	url = git@github.com:mwaeckerlin/ai-agent-skills.git
+[submodule "mcp-gitea"]
+	path = mcp-gitea
+	url = git@github.com:mwaeckerlin/mcp-gitea.git
+[submodule "parliament-winterthur-tool"]
+	path = parliament-winterthur-tool
+	url = git@github.com:mwaeckerlin/parliament-winterthur-tool.git
+[submodule "fake-smtp"]
+	path = fake-smtp
+	url = git@github.com:mwaeckerlin/fake-smtp.git
+[submodule "claude-code"]
+	path = claude-code
+	url = git@github.com:mwaeckerlin/claude-code.git
