@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod +x /home/marc/git/mwaeckerlin/mailservice/smtp-relay/start.sh /home/marc/git/mwaeckerlin/mailservice/smtp-relay-tls/start.sh)",
+      "Bash(git *)",
+      "Bash(docker compose -f * logs *)",
+      "Bash(docker compose -f * ps *)",
+      "Bash(npm ls *)",
+      "Bash(npm view *)",
+      "Bash(npm test*)",
+      "Bash(grep *)",
+      "Bash(find *)",
+      "Bash(ls *)",
+      "Bash(cat *)"
+    ]
+  }
+}
