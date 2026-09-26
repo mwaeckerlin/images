@@ -2,14 +2,13 @@
 
 Root monorepo project with all my (actively maintained) Docker images. The images here are maintained from time to time. Other docker projects may still be maintained but not yet added.
 
-This is especially used for me personally to fetch all my docker image projects at once. It helps in consistency having an IDE (Codex, Claude, …) with access o all projects at once.
+This is especially used for me personally to fetch all my docker image projects at once. It helps in consistency having an IDE (Codex, Claude, …) with access to all projects at once.
 
 All these images are also available from my [Docker Hub](https://hub.docker.com/u/mwaeckerlin) account.
 
 ## Rules for Modern Docker Images
 
-These rules are mandatory defaults for all projects in this monorepo.
-If a project has exceptional needs, document the exception in that project's README.
+These rules are mandatory defaults for all projects in this monorepo. If a project has exceptional needs, document the exception in that project's README.
 
 - multi-stage builds: build stage uses a build image, final stage uses a production base image
 - copy only selected runtime artifacts from build stage, never broad unfiltered copy
@@ -29,9 +28,11 @@ Purpose: reusable builder environments. These images contain all necessary tools
 
 #### Samples
 
-- [build]: master of all build images
-  - [nodejs-build]: build image for NodeJS
-  - [python-build]: build image for Python
+- [very-base]: minimal alpine base for all build stages
+- [ubuntu-very-base]: minimal ubuntu base for build stages that need ubuntu
+  - [build]: master of all tooled build images
+    - [nodejs-build]: build image for NodeJS
+    - [python-build]: build image for Python
 
 #### Specific Rules
 
@@ -45,11 +46,11 @@ Purpose: hardened minimal runtime base. **Always use these as final stage for pr
 
 #### Samples
 
-- [very-base]: master base image for all
+- [scratch]: master runtime base image for all (headless, non-root)
   - [nodejs]: base for NodeJS services
   - [python]: base for Python services
 
-**More on base:** There used to be a [mwaeckerlin/base](https://github.com/mwaeckerlin/base), but this is deprecated, since it was based on a shell. Modern secure images avoid putting a shell into the image. Perhaps one day, when all old images are migrated, `very-base` will be renamed to `base`.
+There used to be a [mwaeckerlin/base](https://github.com/mwaeckerlin/base), but this is deprecated, since it was based on a shell. Modern secure images avoid putting a shell into the image. Perhaps one day, when all old images are migrated, `very-base` will be renamed to `base`.
 
 #### Specific Rules
 

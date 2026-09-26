@@ -76,3 +76,36 @@
 [submodule "claude-code"]
 	path = claude-code
 	url = git@github.com:mwaeckerlin/claude-code.git
+[submodule "reverse-proxy"]
+	path = reverse-proxy
+	url = https://github.com/mwaeckerlin/reverse-proxy.git
+[submodule "redis"]
+	path = redis
+	url = ./redis/
+[submodule "dockindock"]
+	path = dockindock
+	url = git@github.com:mwaeckerlin/dockindock.git
+[submodule "webdesign-scanner"]
+	path = webdesign-scanner
+	url = git@github.com:mwaeckerlin/webdesign-scanner.git
+[submodule "bind"]
+	path = bind
+	url = git@github.com:mwaeckerlin/bind.git
+[submodule "latex"]
+	path = latex
+	url = git@github.com:mwaeckerlin/latex.git
+[submodule "rsync"]
+	path = rsync
+	url = git@github.com:mwaeckerlin/rsync.git
+[submodule "ubuntu-very-base"]
+	path = ubuntu-very-base
+	url = git@github.com:mwaeckerlin/ubuntu-very-base.git
+[submodule "ubuntu-scratch"]
+	path = ubuntu-scratch
+	url = git@github.com:mwaeckerlin/ubuntu-scratch.git
+[submodule "cron"]
+	path = cron
+	url = git@github.com:mwaeckerlin/cron.git
+[submodule "sandbox-base"]
+	path = sandbox-base
+	url = git@github.com:mwaeckerlin/sandbox-base.git
