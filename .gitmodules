@@ -109,3 +109,6 @@
 [submodule "sandbox-base"]
 	path = sandbox-base
 	url = git@github.com:mwaeckerlin/sandbox-base.git
+[submodule "maestro"]
+	path = maestro
+	url = git@github.com:mwaeckerlin/maestro.git
