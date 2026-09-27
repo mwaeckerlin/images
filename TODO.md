@@ -23,4 +23,3 @@
 - nodejs ships only the English ICU data (`icu-data-en`), so `Intl` formats `de-CH` like English; `icu-data-full` costs about 30MB
 - nextcloud is published by Docker Hub build rules from the branches `new` and `new-NN` (tags `nginx`, `php-fpm`, `nginx-NN`, `php-fpm-NN`); the shared GitHub workflow builds only from `master`/`main`, so nextcloud got no caller until it is decided which of the two publishes
 - parliament-winterthur-tool is also published by Docker Hub build rules (per Nextcloud version branch); with the new GitHub workflow two publishers write `:nginx`, `:php-fpm`, `:realtime`; whether the Docker Hub automated builds of the other repositories are still on is not known here
-- pico-httpd points at a git directory that does not exist (`.git/modules/auxiliary/pico-httpd`), so it has no repository GitHub Actions could build
