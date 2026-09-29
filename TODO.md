@@ -2,6 +2,8 @@
 
 ## Orders from Marc
 
+- 2026-09-28 · in work, runner pending: maestro 1.0.7 · Marc: when all agents are done, /commit everything changed in mwaeckerlin including the umbrella — hermes 1.0.3 and 1.0.4, hindsight 1.0.0 and 1.0.1, opencode 1.0.0, openclaw 1.1.5 and 1.1.6 green; umbrella committed with every pointer
+
 - 2026-09-26 · in work · Marc: every image also tagged YYYYMMDD, version and version-YYYYMMDD (also for other tags); version branches such as nextcloud's built and pushed, the Nextcloud major version addressable — shared workflow done, branch callers with the nextcloud and parliament sessions
 
 - 2026-09-26 · in work · Marc: coordinate with the new subprojects ubuntu-very-base and ubuntu-scratch and set up their pipeline

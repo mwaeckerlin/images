@@ -112,3 +112,9 @@
 [submodule "maestro"]
 	path = maestro
 	url = git@github.com:mwaeckerlin/maestro.git
+[submodule "hindsight"]
+	path = hindsight
+	url = git@github.com:mwaeckerlin/hindsight.git
+[submodule "opencode"]
+	path = opencode
+	url = git@github.com:mwaeckerlin/opencode.git
