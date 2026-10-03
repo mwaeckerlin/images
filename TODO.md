@@ -2,7 +2,6 @@
 
 ## Orders from Marc
 
-- 2026-09-28 · in work, reopened 2026-09-30 · Marc: /commit everything changed in mwaeckerlin including the umbrella — done: hermes, hindsight, opencode, openclaw, maestro, umbrella pointers; open: uncommitted work in bind, lizardfs-client, mailservice, nextcloud, parliament-winterthur-tool, reverse-proxy, rsync, vscode, wordpress, owners asked
 - 2026-09-26 · in work · Marc: every image also tagged YYYYMMDD, version and version-YYYYMMDD (also for other tags); version branches such as nextcloud's built and pushed, the Nextcloud major version addressable — shared workflow done, branch callers with the nextcloud and parliament sessions
 
 - 2026-09-26 · in work · Marc: coordinate with the new subprojects ubuntu-very-base and ubuntu-scratch and set up their pipeline
