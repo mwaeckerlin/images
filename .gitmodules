@@ -118,3 +118,6 @@
 [submodule "opencode"]
 	path = opencode
 	url = git@github.com:mwaeckerlin/opencode.git
+[submodule "paperclip"]
+	path = paperclip
+	url = git@github.com:mwaeckerlin/paperclip.git

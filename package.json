@@ -22,6 +22,7 @@
     "./nodejs-build",
     "./openclaw",
     "./openclaw-mcp-gateway",
+    "./paperclip",
     "./parliament-winterthur-tool",
     "./php-fpm",
     "./python",
