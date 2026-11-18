@@ -10,3 +10,7 @@ These rules hold for every project below `~/git/mwaeckerlin`, in addition to the
 ## Git
 
 - **The only branch is `master`.** Every mwaeckerlin repository has `master` as its default branch, and no repository carries a `main`. A GitHub workflow names `master` in `on.push.branches` and never `main`: `branches: [master]`. A repository with version branches lists them beside it, `branches: [master, "nc*"]`.
+
+## Test runs
+
+- **The pipeline of a pushed commit runs every test of its repository:** the reusable workflow `docker-image.yml` of `mwaeckerlin/scratch` runs `npm test` on amd64 and arm64 before it publishes an image. A green pipeline of the committed content counts as its full regression, so no test has to run locally; a local heavy run still goes through the machine queue. Marc, 2026-11-18: «Du kannst zum Testen auch die Pipelines nutzen im CI/CD. … die Tests müssen nicht mehr zwingend lokal ausgeführt werden.»
